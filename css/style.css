@@ -22,6 +22,7 @@ body {
   line-height: 120%;
   font-weight: 400;
   color: white;
+  padding-top: 100px;
 }
 
 a {
@@ -46,7 +47,14 @@ ul {
   padding: 0 10px;
 }
 
-.header {
+.header__container {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+  z-index: 1000;
+  background-color: #070a1b;
 }
 
 .header__top {
@@ -54,6 +62,10 @@ ul {
   justify-content: space-between;
   align-items: center;
   height: 100px;
+}
+
+.header__logo {
+  margin-left: 130px;
 }
 
 .list {
@@ -174,4 +186,10 @@ ul {
   text-align: center;
   padding: 14px 0 14px 0;
   border: 1px solid #f402a2;
+  transition: all 0.3s;
+}
+
+.premier__btn:hover {
+  color: #53a1cb;
+  border: 1px solid #53a1cb;
 }
