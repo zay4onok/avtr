@@ -146,3 +146,32 @@ ul {
   font-size: 24px;
   line-height: 120%;
 }
+
+.premier {
+  margin-bottom: 150px;
+}
+
+.premier__inner {
+  display: flex;
+  gap: 60px;
+}
+
+.premier__text {
+  margin-bottom: 21px;
+}
+
+.premier__img {
+  margin-bottom: 20px;
+}
+
+.premier__btn {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Corporate-A-Bold";
+  color: #f402a2;
+  text-align: center;
+  padding: 14px 0 14px 0;
+  border: 1px solid #f402a2;
+}
