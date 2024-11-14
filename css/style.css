@@ -25,6 +25,10 @@ body {
   padding-top: 100px;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -192,4 +196,39 @@ ul {
 .premier__btn:hover {
   color: #53a1cb;
   border: 1px solid #53a1cb;
+}
+
+.video {
+  margin-bottom: 150px;
+}
+
+.video__img {
+  margin-bottom: 25px;
+}
+.video__btn {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 10px;
+  width: 100%;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Corporate-A-Bold";
+  color: #f402a2;
+  padding: 14px 0 14px 0;
+  border: 1px solid #f402a2;
+  transition: all 0.3s;
+}
+
+.video__btn:hover {
+  color: #53a1cb;
+  border: 1px solid #53a1cb;
+}
+
+.video__btn path {
+  transition: all 0.3s;
+}
+
+.video__btn:hover path {
+  fill: #53a1cb;
 }
