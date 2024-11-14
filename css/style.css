@@ -17,12 +17,11 @@ html {
 
 body {
   font-family: "Roboto Condensed", sans-serif;
-  background-color: #070a1b;
+  background: linear-gradient(180deg, #070a1b 0%, #2a3170 100%);
   font-size: 16px;
   line-height: 120%;
   font-weight: 400;
   color: white;
-  padding-top: 100px;
 }
 
 ::-webkit-scrollbar {
@@ -51,13 +50,7 @@ ul {
   padding: 0 10px;
 }
 
-.header__container {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
-  width: 100%;
-  z-index: 1000;
+header {
   background-color: #070a1b;
 }
 
@@ -237,7 +230,8 @@ ul {
   display: grid;
   grid-template-columns: 255px 255px auto 330px;
   grid-template-rows: auto auto;
-  gap: 44px;
+  gap: 0 44px;
+  margin-bottom: 75px;
 }
 
 .design__cell-one {
@@ -260,4 +254,58 @@ ul {
 
 .design__cell-text {
   margin-bottom: 25px;
+}
+
+.footer {
+  background-color: #070a1b;
+}
+
+.design__slider-item {
+  margin-left: 60px;
+}
+
+.slick-track {
+  margin-left: -30px;
+}
+
+.design__slider {
+  padding-bottom: 25px;
+}
+
+.arrow {
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+  bottom: 0;
+  left: 50%;
+}
+
+.arrow-left {
+  transform: translateX(-81px);
+}
+
+.arrow-right {
+  transform: translateX(31px);
+}
+
+.design__box {
+  max-width: 590px;
+  margin: 150px auto;
+  padding: 0 10px;
+  display: flex;
+  gap: 60px;
+}
+
+.design__box-text {
+  margin-bottom: 15px;
+}
+
+.design__box-column {
+  width: 255px;
+}
+
+.design__img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
 }
