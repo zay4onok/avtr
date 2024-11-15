@@ -309,3 +309,67 @@ header {
   display: block;
   object-fit: cover;
 }
+
+@media (max-width: 768px) {
+  .header__logo {
+    margin-left: 0px;
+  }
+  .logo__img {
+    width: 200px;
+  }
+  .list__item + .list__item {
+    margin-left: 15px;
+  }
+  .list__link {
+    width: 35px;
+    height: 35px;
+  }
+  .title {
+    font-size: 55px;
+  }
+  .title-descr {
+    font-size: 18px;
+  }
+  .header__content {
+    background-position-x: -550px;
+  }
+}
+
+@media (max-width: 580px) {
+  .header__top {
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .list {
+    justify-content: center;
+    width: 100%;
+    padding-top: 10px;
+  }
+  .logo__img {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .title {
+    font-size: 40px;
+  }
+  .title-descr {
+    font-size: 15px;
+  }
+  .header__content {
+    background-position-x: -650px;
+  }
+}
+
+@media (max-width: 475px) {
+  .header__content {
+    background-position-x: -700px;
+  }
+}
+
+@media (max-width: 420px) {
+  .header__content {
+    background-position-x: -800px;
+  }
+}
