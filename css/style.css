@@ -341,8 +341,25 @@ header {
     padding-top: 75px;
     margin-bottom: 75px;
   }
+  .section__title {
+    text-align: center;
+  }
   .concept__text {
     font-size: 16px;
+  }
+  .premier__inner {
+    display: block;
+  }
+  .premier,
+  .video {
+    margin-bottom: 75px;
+  }
+  .premier__img {
+    width: 100%;
+    margin-top: 25px;
+  }
+  .premier__text {
+    font-size: 14px;
   }
 }
 
@@ -366,10 +383,19 @@ header {
     font-size: 40px;
   }
   .title-descr {
-    font-size: 15px;
+    font-size: 16px;
   }
   .header__content {
     background-position-x: -650px;
+  }
+  .section__title {
+    text-align: center;
+  }
+  .concept__text {
+    font-size: 14px;
+  }
+  .premier__text {
+    font-size: 12px;
   }
 }
 
